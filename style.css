@@ -103,7 +103,7 @@ section{
 }
 
 .home{
-    height: 100vh;
+    height:100vh;
     width: 100%;
     background-image: url(../images/background.avif);
     background-color: #e3ffe6;
@@ -116,8 +116,11 @@ section{
 }
 
 .home-img img{
+    margin-top: -100px;
     width: 100%;
     height: auto;
+
+    
 }
 
 .home-text h4{
@@ -189,7 +192,7 @@ span{
 }
 
 .row-img img {
-    width: 170px;
+    width: 120px;
     height: auto;
     max-width: 100%;
 
@@ -249,14 +252,18 @@ span{
 
 .box{
     position: relative;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .box-img img{
-    width: 100%;
+    width: 100px;
     height: auto;
     border-radius: 20px;
     margin-bottom: 1.2rem;
     transition: all .45s ease;
+    
 
 }
 
@@ -345,9 +352,10 @@ span{
 }
 
 .cta-text .logo img{
-    width: 160px;
-    height: auto;
+    width: 250px;
+    height: 160px;
     margin-bottom: 1.5rem;
+    
 }
 
 .cta-text h3{
